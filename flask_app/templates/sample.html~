@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>Results</title>
+  </head>
+  <body align = "center">
+    <h1>
+    <pre>
+      {{ text }}
+    </pre>
+    </h1>
+  </body>
+</html>

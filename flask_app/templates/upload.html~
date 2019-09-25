@@ -1,0 +1,13 @@
+<html>
+  <body>
+    <h1> Welcome </h1>
+    <h3> Please submit your add.go file by browsing your file directory. Click on the submit button to recieve a graded score. </h3>
+    <container>
+      <form action = "http://ec2-3-88-127-231.compute-1.amazonaws.com:5000/uploader" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>
+      </container>
+   </body>
+</html>
